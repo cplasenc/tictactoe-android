@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">TRES EN RAYA</string>
+
+    ******** PANTALLA PRINCIPAL *************
+
+    <string name="botonJugar">JUGAR</string>
+    <string name="botonPuntuaciones">PUNTUACIONES</string>
+    <string name="botonAyuda">AYUDA</string>
+
+
+    ************ ELEGIR PARTIDAS **************
+
+    <string name="tituloPartidas">¿CUÁNTAS PARTIDAS QUIERES JUGAR?</string>
+    <string name="botonIndividual">Individual</string>
+    <string name="botonMultijugador">Multijugador</string>
+
+    ********* PANTALLA JUGAR *************
+
+    <string name="titulo_jugar">TRES EN RAYA</string>
+
+
+    ********* Elegir nombre ************
+
+    <string name="player_1_default_name">Jugador 1</string>
+    <string name="player_2_default_name">Jugador 2</string>
+    <string name="default_min_games">Jugador 2</string>
+    <string name="botonJ">JUGAR</string>
+
+    ******* GANADORES *************
+
+    <string name="tituloPuntuaciones">GANADORES</string>
+    <string name="bAdd">IMG</string>
+    <string name="instrucciones_resultados">Dezliza hacia la izquierda para guardar
+    y hacia la derecha para ver Ganadores</string>
+
+
+    ******** AYUDA **********
+
+    <string name="tituloAyuda">AYUDA</string>
+    <string name="punto1">Elige Modo de Juego.
+        En «Individual» jugarás contra la Máquina,
+        mientras que en «Multijugador» jugarás contra otro jugador</string>
+    <string name="punto2">Ganará el mejor de 3 partidas</string>
+    <string name="punto3">Si ganas, podrás añadir tu nombre y una imagen y aparecer en la lista de Ganadores</string>
+
+
+</resources>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="24dp"
+            android:layout_weight="1"
+            android:text="@string/titulo_jugar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/jugador"
+            style="@style/Base.TextAppearance.AppCompat.Body2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="124dp"
+            android:text="TextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <GridLayout
+            android:id="@+id/grid"
+            android:layout_width="286dp"
+            android:layout_height="296dp"
+            android:layout_below="@+id/jugador"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="29dp"
+            android:layout_weight="1"
+            android:columnCount="3"
+            android:orientation="horizontal"
+            android:rowCount="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+                android:id="@+id/a11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="#2194B8"
+                android:onClick="jugar"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="70sp"
+
+                />
+
+            <Button
+                android:id="@+id/a12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+
+                android:background="#2194B8"
+                android:onClick="jugar"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/a13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+
+                android:background="#2194B8"
+                android:onClick="jugar"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/a21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+
+                android:background="#2194B8"
+                android:onClick="jugar"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/a22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+
+                android:background="#2194B8"
+                android:onClick="jugar"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/a23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+
+                android:background="#2194B8"
+                android:onClick="jugar"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="70sp" />
+
+
+            <Button
+                android:id="@+id/a31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+
+                android:background="#2194B8"
+                android:onClick="jugar"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="70sp" />
+
+
+            <Button
+                android:id="@+id/a32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+
+                android:background="#2194B8"
+                android:onClick="jugar"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="70sp" />
+
+            <Button
+                android:id="@+id/a33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+
+                android:background="#2194B8"
+                android:onClick="jugar"
+                android:text=" "
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="70sp" />
+
+        </GridLayout>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
